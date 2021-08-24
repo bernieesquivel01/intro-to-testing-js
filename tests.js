@@ -27,3 +27,12 @@ describe("sayHello", function() {
         expect(typeof sayHello()).toBe("string");
     });
 });
+
+//Exercise #3:
+describe("sayHelloJane", function() {
+    it('should return the string "Hello, Jane!" when executed', function() {
+        expect(sayHelloJane()).toBe("Hello, Jane!");
+    });
+});
+
+

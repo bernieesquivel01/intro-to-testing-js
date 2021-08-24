@@ -12,3 +12,8 @@ function sayHello(){
 function sayHello(){
     return "Hello";
 }
+
+//Exercise #3:
+function sayHelloJane() {
+    return "Hello, Jane!"
+}
