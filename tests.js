@@ -29,10 +29,16 @@ describe("sayHello", function() {
 });
 
 //Exercise #3:
-describe("sayHelloJane", function() {
+describe("sayHello", function() {
     it('should return the string "Hello, Jane!" when executed', function() {
-        expect(sayHelloJane()).toBe("Hello, Jane!");
+        expect(sayHello()).toBe("Hello, Jane!");
     });
 });
 
+//Exercise #4:
+describe("sayHello", function() {
+    it('should return the string "Hello, Jane!" when executed', function() {
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
+    });
+});
 
