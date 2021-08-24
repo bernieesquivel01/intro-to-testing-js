@@ -7,3 +7,8 @@ function helloWorld() {
 function sayHello(){
     return "Hello";
 }
+
+//Exercise #2:
+function sayHello(){
+    return "Hello";
+}
